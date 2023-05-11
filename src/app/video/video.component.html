@@ -1,0 +1,18 @@
+<input type="number" name="price" >
+<div class="row">
+        <div class="col-md-4" *ngFor="let p of listvideo, let i=index">
+                <div  class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://img.freepik.com/vecteurs-libre/conception-autocollant-t-shirt-bleu-isole_1308-79625.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Video: {{p.title}}</h5>
+                    <p class="card-text">genre: {{p.genre}}</p>
+                    <p class="card-text">public: {{p.public}}</p>
+                    <p class="card-text">nbShared: {{p.nbShared}}</p>
+
+    
+                   
+                </div>
+                </div>   
+            </div>
+        </div>  
+</div>
